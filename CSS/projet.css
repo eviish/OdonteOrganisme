@@ -1,0 +1,125 @@
+/*GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color:crimson;
+}
+
+
+
+/*HEADER */
+
+header
+{
+    height: 270px;
+}
+header nav
+{
+    float: right;
+    margin-top: -200px;
+}
+header nav ul li
+{
+    display: inline-block;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 50px;
+}
+h1
+{
+    text-decoration: none;
+    color: aqua
+}
+/*FOOTER */
+footer
+{
+    height: 150px;
+    background-color: aqua;
+}
+footer h1
+{
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white
+}
+
+
+
+
+
+
+
+
+
+
+ /*CONTACT*/
+#contact{
+    
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 60px;
+    font-size: 1.5em;
+    border: 3px solid black;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 25px;
+}
+
+input, textarea{
+    border: 2px solid black;
+    background-color: white;
+    color: white;
+    border-radius: 10px; 
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+#msg{
+    margin-bottom: 10px;
+}
+
+
+#send{
+    padding: 10px;
+    background-color: aqua;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+}
+
+#contact h3{
+/*    width: 400px;  */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #02B8DD;
+}
+
